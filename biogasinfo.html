@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOGAS Booking</title>
+    <link rel="stylesheet" href="biogasinfo.css">
+</head>
+<body>
+    <header>
+        <h1>RNG [Renewable Natural Gas]</h1>
+    </header>
+    <main>
+        <section class="booking-form">
+            <h2>Book Your Biogas</h2>
+            <form>
+                <label for="pincode">Enter Your Pincode:</label>
+                <input type="text" id="pincode" name="pincode" placeholder="Pincode" required>
+                
+                <label for="area">Select Your Area:</label>
+                <select id="area" name="area" required>
+                    <option value="" disabled selected>Select your area</option>
+                    <option value="area1">Area 1</option>
+                    <option value="area2">Area 2</option>
+                    <option value="area3">Area 3</option>
+                </select>
+                
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" placeholder="Contact Number" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

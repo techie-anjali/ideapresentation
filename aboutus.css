@@ -1,0 +1,111 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.main {
+    padding: 20px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile img:hover {
+    transform: scale(1.1);
+}
+
+.profile-info {
+    margin-top: 15px;
+}
+
+.profile-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-style: italic;
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.profile-info a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.profile-info a img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.content {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

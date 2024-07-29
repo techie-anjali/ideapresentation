@@ -1,0 +1,53 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px; /* Add some padding if needed */
+}
+.contact input,
+.contact button {
+    margin: 10px 0; /* Add margin for spacing between elements */
+}
+
+/* Style the button */
+button {
+    background-color: rgb(143, 227, 155);
+    border: 1px solid #ccc; /* Add border for better visibility */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Center image horizontally */
+img {
+    height: 500px;
+    width: 500px;
+    display: block; 
+    margin: 20px auto; /* Add margin for spacing around the image */
+}
+
+/* Style body background color */
+body {
+    background-color: #bfe8b8;
+}
+
+
+/* Style footer text */
+footer {
+    color: white;
+    text-align: center; 
+}
+
+button:hover, img:hover {
+    color: rgb(226, 220, 220);
+}
+
+/* General hover effect for all elements */
+*:hover {
+    color: rgb(226, 220, 220);
+}
+h1{
+    color: black;
+
+}
